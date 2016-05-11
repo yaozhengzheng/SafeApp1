@@ -74,10 +74,13 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
             case TXWS:
                 Toast.makeText(MainActivity.this,"点击了"+position,
                         Toast.LENGTH_SHORT).show();
+                
                 break;
             case RJGL:
                 Toast.makeText(MainActivity.this,"点击了"+position,
                         Toast.LENGTH_SHORT).show();
+                Intent intent3 = new Intent(this, RjglActivity.class);
+                startActivity(intent3);
                 break;
             case JCGL:
                 Toast.makeText(MainActivity.this,"点击了"+position,
@@ -90,8 +93,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
             case SZZX:
                 Toast.makeText(MainActivity.this,"点击了"+position,
                         Toast.LENGTH_SHORT).show();
-                Intent intent = new Intent(this, RjglActivity.class);
-                startActivity(intent);
+
                 break;
 
         }
