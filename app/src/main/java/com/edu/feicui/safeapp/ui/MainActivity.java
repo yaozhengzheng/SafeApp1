@@ -135,8 +135,8 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
 
             HomeBean bean = mDatas.get(position);
             ivIcons.setImageResource(bean.pic);
-            tvDesc.setText(bean.desc);
 
+            tvDesc.setText(bean.desc);
             return convertView;
         }
     }
