@@ -1,18 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-    >
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/ic_launcher"/>
-
-    <TextView
+                android:layout_height="match_parent">
+    <com.edu.feicui.safeapp.ui.FocusedText
+        android:ellipsize="marquee"
+        android:singleLine="true"
         android:layout_width="match_parent"
         android:layout_height="56dp"
         android:gravity="center"
-        android:text="嘎嘎嘎呱呱呱！！！"
+        android:text="自从有了手机卫士，腰不酸了，眼放光了，爬到十四楼腿不哆嗦了，真是杠杠滴啊！！"
         android:textColor="#0F0"
         android:textSize="25sp"/>
 
@@ -27,7 +23,6 @@
             android:layout_height="wrap_content"
             android:cacheColorHint="@android:color/transparent"
             android:numColumns="3">
-
         </GridView>
 
     </RelativeLayout>

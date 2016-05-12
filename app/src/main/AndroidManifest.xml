@@ -2,13 +2,16 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
           package="com.edu.feicui.safeapp">
 
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+
     <application
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="DhActivity">
+        <activity android:name=".DhActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
@@ -20,6 +23,24 @@
         <activity android:name=".activity.RjglActivity">
         </activity>
         <activity android:name=".ui.SplashActivity">
+        </activity>
+        <activity android:name=".activity.PositionActivity">
+        </activity>
+        <activity android:name=".activity.SzzxActivity">
+        </activity>
+        <activity android:name=".activity.SettingActivity">
+        </activity>
+        <activity android:name=".activity.DialogActivity">
+        </activity>
+        <activity android:name=".activity.SjfdActivity">
+        </activity>
+        <activity android:name=".activity.Setup1Activity">
+        </activity>
+        <activity android:name=".activity.Setup2Activity">
+        </activity>
+        <activity android:name=".activity.Setup3Activity">
+        </activity>
+        <activity android:name=".activity.Setup4Activity">
         </activity>
     </application>
 
