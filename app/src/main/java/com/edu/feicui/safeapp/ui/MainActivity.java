@@ -85,7 +85,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
                 break;
             case RJGL:
                 startActivity(new Intent(this,RjglActivity.class));
-                break;
+            break;
             case JCGL:
 
                 break;
